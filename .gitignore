@@ -1,0 +1,130 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+*.env.local
+*.env.production
+api/.env
+api/.env.*
+# Корневой .env с POSTGRES_PASSWORD (используется docker-compose). См. .env.example.
+/.env
+/.aiviso_secrets_rotation.json
+
+# Node
+node_modules/
+.next/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets — никогда не коммитим
+*.pem
+*.key
+service-account*.json
+gcloud-*.json
+gcp-key*.json
+aiviso-*.json
+secrets/
+
+# Локальные деплой-скрипты содержат пароль root от прод-сервера —
+# пушить НЕЛЬЗЯ ни в приватный, ни в публичный репозиторий.
+# Они автогенерятся локально и бесполезны другим разработчикам.
+/deploy.py
+/deploy_*.py
+/fix2.py
+/hotfix_*.py
+/redeploy_*.py
+/check_*.py
+/check_*.txt
+/test_*.py
+/test_*.js
+/fix_*.py
+/fix_*.js
+/debug_*.py
+/disk_*.py
+/inspect_*.py
+/probe_*.py
+/notify_*.py
+/quick_*.py
+/recreate_*.py
+/restore_*.py
+/setup_*.py
+/server_setup.py
+/verify_*.py
+/wait*.py
+/force_*.py
+/nocache_*.py
+/rebuild_*.py
+/run_test*.py
+/e2e_test.py
+/excel_report_output.txt
+# Одноразовые скрипты ротации секретов и обновления — содержат IP сервера / fragments,
+# не нужны другим разработчикам
+/rotate_*.py
+/update_*.py
+
+# Артефакты для отладки
+tmp_*.png
+tmp_*.js
+tmp_*.json
+*_out.txt
+*_out1.txt
+ssh_debug*.py
+ssh_deploy*.py
+
+# Локальные uploads (фото и результаты пользователей — не для коммита)
+uploads/
+*.pyc
+.github/
+
+# Локальные бэкапы кода перед рискованными правками — не нужны в репо,
+# git сам хранит историю и работает для отката лучше.
+_backup_*/
+/backup_*/
+
+# Локальные настройки Claude Code (skills, project context — у каждого свои)
+.claude/
+
+# Одноразовые отладочные/миграционные/служебные скрипты — генерятся локально,
+# другим разработчикам бесполезны. Расширенный список после ревизии корня.
+/_*.py
+/diag_*.py
+/db_cleanup.py
+/add_cache_headers.py
+/copy_table_assets.py
+/create_payments_table.py
+/finalize_deploy.py
+/find_table_assets.py
+/gen_og_banner.py
+/harden_basic.py
+/kill_openclaw.py
+/read_brand_logs.py
+/send_*_report.py
+/stop_miner.py
+/sync_db_schema.py
+/trace_entry.py
+/tune_one_kit.py
+
+# Helper для подключения по SSH-ключу — описывает локальные пути к ключам
+/aiviso_ssh.py
+
+# Локальные одноразовые скрипты которые не подпадают под основные паттерны
+/setup_blog_deploy.py
+/gen_landing_categories.py
+/backfill_webp.py
+/_telegram_*.py
+
+# Next.js auto-generated артефакты
+web/next-env.d.ts
+web/tsconfig.tsbuildinfo
+web/.next/

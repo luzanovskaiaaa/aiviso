@@ -1,0 +1,35 @@
+services:
+  api:
+    build: ./api
+    container_name: aiviso-api
+    restart: unless-stopped
+    env_file: ./api/.env
+    environment:
+      # POSTGRES_PASSWORD читается из ./.env (рядом с этим файлом, в gitignore).
+      # См. .env.example для шаблона и README → Setup.
+      - DATABASE_URL=postgresql+asyncpg://aiviso_user:${POSTGRES_PASSWORD}@host.docker.internal:5432/aiviso
+      - UPLOAD_DIR=/uploads
+    volumes:
+      - /var/www/aiviso/uploads:/uploads
+      - /var/www/aiviso/gcp-key.json:/app/gcp-key.json:ro
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    ports:
+      - "127.0.0.1:8000:8080"
+    networks:
+      - aiviso
+
+  web:
+    build: ./web
+    container_name: aiviso-web
+    restart: unless-stopped
+    environment:
+      - NEXT_PUBLIC_API_URL=https://api.aiviso.ru
+    ports:
+      - "127.0.0.1:3010:3000"
+    networks:
+      - aiviso
+
+networks:
+  aiviso:
+    driver: bridge

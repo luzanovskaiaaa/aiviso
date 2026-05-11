@@ -1,0 +1,294 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* === Aiviso — Pop-art brutalist === */
+:root {
+  /* Дизайн-токены лендинга (новая стилистика) */
+  --av-bg: #F1F2F4;
+  --av-bg-cream: #E9EBEE;
+  --av-ink: #0E0E10;
+  --av-ink-2: #1A1A1E;
+  --av-ink-3: #2A2A30;
+  --av-line: #0E0E10;
+  --av-muted: #6F7480;
+  --av-accent: #7C3AED;       /* WB violet — основной */
+  --av-accent-2: #A855F7;     /* lighter purple */
+  --av-accent-3: #481173;     /* WB deep purple — для тёмных акцентов */
+  --av-accent-4: #5C2DD0;     /* mid violet */
+  --av-ozon: #005BFF;         /* Ozon синий */
+  --av-paper: #FFFFFF;
+
+  --av-r-sm: 14px;
+  --av-r-md: 22px;
+  --av-r-lg: 36px;
+
+  --av-shadow-card: 0 1px 0 rgba(255,255,255,.6) inset, 0 18px 36px -22px rgba(14,14,16,.35);
+  --av-shadow-brut: 6px 6px 0 0 var(--av-ink);
+  --av-shadow-brut-lg: 10px 10px 0 0 var(--av-ink);
+  --av-shadow-brut-accent: 6px 6px 0 0 var(--av-accent);
+
+  --av-font-display: var(--font-bricolage), "Bricolage Grotesque", "Manrope", system-ui, sans-serif;
+  --av-font-text: var(--font-manrope), "Manrope", system-ui, -apple-system, sans-serif;
+
+  /* Tailwind shadcn-токены — оставлены для совместимости */
+  --background: 0 0% 100%;
+  --foreground: 222 47% 11%;
+  --primary: 318 84% 43%;       /* magenta */
+  --primary-foreground: 0 0% 100%;
+  --border: 220 13% 91%;
+  --input: 220 13% 91%;
+  --ring: 318 84% 43%;
+  --radius: 0.875rem;
+}
+
+@layer base {
+  * { @apply border-border box-border; }
+  html, body {
+    background: #fff;
+    color: var(--av-ink);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  body { @apply antialiased; font-family: var(--av-font-text); }
+}
+
+@layer components {
+  .input-field {
+    @apply w-full px-4 py-3 rounded-xl border-2 border-gray-300 text-sm
+           focus:outline-none focus:ring-0 focus:border-[#7C3AED]
+           bg-white placeholder:text-gray-400 transition-colors
+           hover:border-gray-400;
+  }
+  /* Override Chrome/Safari autofill yellow/blue background */
+  .input-field:-webkit-autofill,
+  .input-field:-webkit-autofill:hover,
+  .input-field:-webkit-autofill:focus,
+  .input-field:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+    -webkit-text-fill-color: #111827 !important;
+    transition: background-color 5000s ease-in-out 0s;
+  }
+}
+
+/* === Brutalist primitives, доступны как обычные классы === */
+.av-display {
+  font-family: var(--av-font-display);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 0.95;
+}
+.av-italic { font-style: italic; font-weight: 700; }
+
+.av-eyebrow {
+  font-family: var(--av-font-text);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--av-ink);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.av-eyebrow::before {
+  content: "";
+  width: 22px;
+  height: 1.5px;
+  background: var(--av-ink);
+}
+
+/* Buttons */
+.av-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 22px;
+  border-radius: 999px;
+  border: 1.5px solid var(--av-ink);
+  background: var(--av-ink);
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: -0.01em;
+  transition: transform .18s cubic-bezier(.2,.8,.2,1), box-shadow .18s, background .15s, color .15s;
+  white-space: nowrap;
+  text-decoration: none;
+  cursor: pointer;
+}
+.av-btn:hover { transform: translate(-2px, -2px); box-shadow: 4px 4px 0 0 var(--av-ink); }
+.av-btn:active { transform: translate(0,0); box-shadow: none; }
+
+.av-btn-accent {
+  background: var(--av-accent);
+  color: #fff;
+  border-color: var(--av-ink);
+}
+.av-btn-accent:hover { box-shadow: 4px 4px 0 0 var(--av-ink); }
+
+.av-btn-ghost {
+  background: transparent;
+  color: var(--av-ink);
+}
+.av-btn-ghost:hover {
+  background: var(--av-ink);
+  color: #fff;
+}
+
+.av-btn-arrow {
+  width: 28px; height: 28px;
+  display: inline-flex; align-items: center; justify-content: center;
+  background: #fff;
+  color: var(--av-ink);
+  border-radius: 999px;
+  transition: transform .18s;
+}
+.av-btn:hover .av-btn-arrow { transform: translateX(3px); }
+.av-btn-accent .av-btn-arrow { background: var(--av-ink); color: var(--av-accent); }
+
+/* Cards */
+.av-card {
+  background: var(--av-paper);
+  border: 1.5px solid var(--av-ink);
+  border-radius: var(--av-r-md);
+  position: relative;
+  overflow: hidden;
+}
+.av-card-brut { box-shadow: var(--av-shadow-brut); }
+.av-card-brut-lg { box-shadow: var(--av-shadow-brut-lg); }
+
+/* Pills / chips */
+.av-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 12px;
+  border-radius: 999px;
+  border: 1.5px solid var(--av-ink);
+  background: var(--av-paper);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+.av-chip-accent { background: var(--av-accent); color: #fff; }
+.av-chip-dark { background: var(--av-ink); color: #fff; border-color: var(--av-ink); }
+
+/* Soft radial wash background */
+.av-bg-grid {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(60% 50% at 20% 10%, rgba(124,58,237,.10), transparent 60%),
+    radial-gradient(50% 40% at 90% 90%, rgba(72,17,115,.06), transparent 65%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Marquee */
+.av-marquee {
+  overflow: hidden;
+  border-block: 1.5px solid var(--av-ink);
+  background: var(--av-ink);
+  color: #fff;
+  padding: 18px 0;
+}
+.av-marquee-track {
+  display: flex;
+  gap: 48px;
+  white-space: nowrap;
+  animation: avMarquee 28s linear infinite;
+  width: max-content;
+}
+.av-marquee-item {
+  font-family: var(--av-font-display);
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+}
+.av-marquee-item .dot {
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  background: var(--av-accent);
+  display: inline-block;
+}
+@keyframes avMarquee {
+  to { transform: translateX(-50%); }
+}
+
+/* Float (subtle) */
+.av-float-card { animation: avFloat 7s ease-in-out infinite; }
+.av-float-card.av-delay-1 { animation-delay: -2s; }
+.av-float-card.av-delay-2 { animation-delay: -4s; }
+.av-float-card.av-delay-3 { animation-delay: -1s; }
+@keyframes avFloat {
+  0%, 100% { transform: translateY(0) rotate(var(--av-rot, 0deg)); }
+  50% { transform: translateY(-10px) rotate(calc(var(--av-rot, 0deg) + 0.6deg)); }
+}
+
+/* Reveal on scroll */
+.av-reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity .8s cubic-bezier(.2,.8,.2,1), transform .8s cubic-bezier(.2,.8,.2,1);
+  transition-delay: var(--av-reveal-delay, 0ms);
+}
+.av-reveal.av-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Disable animations when user prefers reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .av-reveal { transition: none; opacity: 1; transform: none; }
+  .av-marquee-track { animation: none; }
+  .av-float-card { animation: none; }
+}
+
+/* Big footer mega text */
+.av-footer-mega {
+  font-family: var(--av-font-display);
+  font-weight: 900;
+  font-size: clamp(72px, 16vw, 220px);
+  line-height: 0.85;
+  letter-spacing: -0.05em;
+  margin: 32px 0 24px;
+  white-space: nowrap;
+}
+
+/* Section header helper */
+.av-sec-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 18px;
+  margin-bottom: 56px;
+}
+.av-sec-head h2 {
+  margin: 0;
+  font-size: clamp(36px, 5.5vw, 76px);
+  font-family: var(--av-font-display);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 0.95;
+}
+.av-sec-head p {
+  margin: 0;
+  max-width: 640px;
+  color: var(--av-muted);
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 720px) {
+  .av-display { line-height: 1.0; }
+  .av-footer-mega { font-size: clamp(54px, 14vw, 96px); }
+  .av-sec-head { margin-bottom: 36px; }
+  .av-sec-head h2 { font-size: clamp(30px, 9vw, 48px); }
+  .av-marquee-item { font-size: 18px; }
+}
