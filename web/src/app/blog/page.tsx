@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "seo-kartochki-wildberries",
+    title: "SEO для карточки Wildberries в 2026: пошаговый гайд",
+    excerpt:
+      "Ключевые слова, заголовок, характеристики, описание и влияние фото на позиции. Чек-лист из 30 пунктов для роста органического трафика.",
+    date: "2026-06-18",
+  },
+  {
     slug: "oshibki-foto-tovara",
     title: "7 ошибок с фото товара на маркетплейсе, которые убивают конверсию",
     excerpt:
