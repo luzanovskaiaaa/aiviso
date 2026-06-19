@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "psihologiya-cveta-kartochki",
+    title: "Психология цвета на карточке товара: как поднять CTR на маркетплейсе",
+    excerpt:
+      "Какой фон выбрать для одежды, косметики и электроники. Разбор цветов по категориям, частые ошибки и чек-лист из 8 пунктов для проверки карточки.",
+    date: "2026-06-19",
+  },
+  {
     slug: "seo-kartochki-wildberries",
     title: "SEO для карточки Wildberries в 2026: пошаговый гайд",
     excerpt:
