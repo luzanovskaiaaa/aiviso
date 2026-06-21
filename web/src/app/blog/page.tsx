@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "konversiya-kartochki-cheklist",
+    title: "Как поднять конверсию карточки товара на 30%: чек-лист из 25 пунктов",
+    excerpt:
+      "Фото, заголовок, характеристики, инфографика и цена — разбираем каждый элемент карточки на WB и Ozon с реальными кейсами и конкретными цифрами.",
+    date: "2026-06-21",
+  },
+  {
     slug: "opisanie-tovara-wb",
     title: "Как написать описание товара для Wildberries: полное руководство 2026",
     excerpt:
