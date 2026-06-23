@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "wb-vs-ozon-foto-trebovaniya",
+    title: "Чем отличается фото для WB и Ozon: требования к карточке товара в 2026",
+    excerpt:
+      "Размеры, фон, количество кадров, инфографика — всё что отличает Wildberries от Ozon. Чек-лист из 16 пунктов и схема подготовки одного фото сразу для двух площадок.",
+    date: "2026-06-23",
+  },
+  {
     slug: "kak-fotografirovat-odezhdu",
     title: "Как фотографировать одежду для маркетплейсов в 2026: пошаговый гайд",
     excerpt:
