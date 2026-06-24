@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "kartochka-luchshe-konkurentov",
+    title: "Как сделать карточку лучше конкурентов на WB и Ozon",
+    excerpt:
+      "Пошаговый анализ карточек конкурентов по фото, SEO, отзывам и цене. Чек-лист из 20 пунктов для обгона ТОПа на Wildberries и Ozon.",
+    date: "2026-06-24",
+  },
+  {
     slug: "wb-vs-ozon-foto-trebovaniya",
     title: "Чем отличается фото для WB и Ozon: требования к карточке товара в 2026",
     excerpt:
