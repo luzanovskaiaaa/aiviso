@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "analiz-konkurentov-wildberries-ozon",
+    title: "Как анализировать конкурентов на Wildberries и Ozon: пошаговый гайд 2026",
+    excerpt:
+      "Чек-лист из 18 пунктов для разбора карточек конкурентов: фото, ключи, цена, отзывы. Инструменты и план действий на неделю чтобы выйти в ТОП.",
+    date: "2026-06-25",
+  },
+  {
     slug: "kartochka-luchshe-konkurentov",
     title: "Как сделать карточку лучше конкурентов на WB и Ozon",
     excerpt:
