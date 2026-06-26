@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "nizkokonkurentnye-kategorii-ozon-2026",
+    title: "ТОП-12 низкоконкурентных категорий Ozon в 2026",
+    excerpt:
+      "Какие ниши на Ozon с малым числом продавцов и живым спросом. Средняя выручка, порог входа, чек-лист из 8 критериев для выбора свободной ниши.",
+    date: "2026-06-26",
+  },
+  {
     slug: "analiz-konkurentov-wildberries-ozon",
     title: "Как анализировать конкурентов на Wildberries и Ozon: пошаговый гайд 2026",
     excerpt:
