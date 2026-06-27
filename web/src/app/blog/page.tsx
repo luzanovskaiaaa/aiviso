@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "sezonnye-tovary-kalendar-2026",
+    title: "Сезонные товары на маркетплейсах: календарь продаж 2026",
+    excerpt:
+      "Когда заходить в сезон на WB и Ozon, за сколько дней готовить карточки и фото. Календарь пиков по месяцам и чек-лист из 12 шагов для подготовки к каждому сезону.",
+    date: "2026-06-27",
+  },
+  {
     slug: "nizkokonkurentnye-kategorii-ozon-2026",
     title: "ТОП-12 низкоконкурентных категорий Ozon в 2026",
     excerpt:
