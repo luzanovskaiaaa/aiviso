@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "upakovka-tovara-marketpleis",
+    title: "Упаковка товара для Wildberries и Ozon: требования, штрафы и чек-лист 2026",
+    excerpt:
+      "За что штрафуют на WB и Ozon за упаковку, как правильно наносить штрихкод и чек-лист из 18 пунктов перед отправкой. Реальные кейсы и конкретные суммы штрафов.",
+    date: "2026-06-28",
+  },
+  {
     slug: "sezonnye-tovary-kalendar-2026",
     title: "Сезонные товары на маркетплейсах: календарь продаж 2026",
     excerpt:
