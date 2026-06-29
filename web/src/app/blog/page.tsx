@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "pervye-otzyvy-marketpleis",
+    title: "Как получить первые отзывы на Wildberries и Ozon в 2026",
+    excerpt:
+      "Баллы за отзыв, вкладыши в упаковку, поддержка маркетплейса — разбираем легальные способы собрать первые 10–20 отзывов без риска бана. Чек-лист и реальные кейсы.",
+    date: "2026-06-29",
+  },
+  {
     slug: "upakovka-tovara-marketpleis",
     title: "Упаковка товара для Wildberries и Ozon: требования, штрафы и чек-лист 2026",
     excerpt:
