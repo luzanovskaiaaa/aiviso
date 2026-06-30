@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "vozvrat-tovarov-foto",
+    title: "Возвраты на Wildberries и Ozon: при чём здесь фото товара",
+    excerpt:
+      "Несовпадение цвета, размера и деталей с фото — главная причина возвратов. Разбираем цифры, типичные ошибки и чек-лист для снижения процента возврата. Кейс: возврат с 41% до 27%.",
+    date: "2026-06-30",
+  },
+  {
     slug: "pervye-otzyvy-marketpleis",
     title: "Как получить первые отзывы на Wildberries и Ozon в 2026",
     excerpt:
