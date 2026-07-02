@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "reklama-na-wildberries",
+    title: "Реклама на Wildberries в 2026: пошаговый гайд для селлеров",
+    excerpt:
+      "Типы рекламных кампаний WB, как поставить ставку, не слить бюджет и считать ДРР. Чек-лист из 15 пунктов перед запуском и реальные кейсы по окупаемости.",
+    date: "2026-07-02",
+  },
+  {
     slug: "cena-tovara-wildberries-ozon",
     title: "Как установить цену товара на Wildberries и Ozon в 2026",
     excerpt:
