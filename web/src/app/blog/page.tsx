@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "fbo-vs-fbs-wildberries-ozon",
+    title: "FBO или FBS: что выбрать на Wildberries и Ozon в 2026",
+    excerpt:
+      "Сравнение схем поставки по логистике, хранению, позициям в поиске и рискам заморозки стока. Чек-лист из 12 критериев и реальные кейсы по категориям.",
+    date: "2026-07-03",
+  },
+  {
     slug: "reklama-na-wildberries",
     title: "Реклама на Wildberries в 2026: пошаговый гайд для селлеров",
     excerpt:
