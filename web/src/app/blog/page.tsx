@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "video-kartochki-wb-ozon",
+    title: "Видео для карточки товара на Wildberries и Ozon: требования и чек-лист 2026",
+    excerpt:
+      "Форматы, длина, советы по съёмке без бюджета и чек-лист из 18 пунктов перед загрузкой. Кейс: +23% конверсии после добавления 30-секундного ролика.",
+    date: "2026-07-04",
+  },
+  {
     slug: "fbo-vs-fbs-wildberries-ozon",
     title: "FBO или FBS: что выбрать на Wildberries и Ozon в 2026",
     excerpt:
