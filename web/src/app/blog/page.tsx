@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "prodvizhenie-kartochki-bez-reklamy",
+    title: "Как продвигать карточку товара без рекламы на WB и Ozon в 2026",
+    excerpt:
+      "6 органических рычагов роста: SEO, фото, отзывы, остатки, акции и конверсия. Чек-лист из 18 пунктов и реальные кейсы — как выйти в топ без рекламного бюджета.",
+    date: "2026-07-05",
+  },
+  {
     slug: "video-kartochki-wb-ozon",
     title: "Видео для карточки товара на Wildberries и Ozon: требования и чек-лист 2026",
     excerpt:
