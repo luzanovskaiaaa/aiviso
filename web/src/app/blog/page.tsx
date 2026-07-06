@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "wb-vs-ozon-gde-prodavat",
+    title: "Wildberries или Ozon: где лучше продавать в 2026",
+    excerpt:
+      "Сравнение WB и Ozon по комиссиям, аудитории, конкуренции и логистике. Чек-лист из 12 критериев для выбора маркетплейса и реальные кейсы по категориям.",
+    date: "2026-07-06",
+  },
+  {
     slug: "prodvizhenie-kartochki-bez-reklamy",
     title: "Как продвигать карточку товара без рекламы на WB и Ozon в 2026",
     excerpt:
