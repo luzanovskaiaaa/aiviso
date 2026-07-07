@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "shtrafy-wildberries-2026",
+    title: "Штрафы на Wildberries в 2026: за что снимают деньги и как избежать",
+    excerpt:
+      "Полный список штрафов WB: упаковка, маркировка, пересорт, просрочки, несоответствие фото. Суммы, чек-лист из 14 пунктов и как оспорить акт. Реальные кейсы селлеров.",
+    date: "2026-07-07",
+  },
+  {
     slug: "wb-vs-ozon-gde-prodavat",
     title: "Wildberries или Ozon: где лучше продавать в 2026",
     excerpt:
