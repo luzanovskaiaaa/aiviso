@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "kak-vybrat-nishu-wildberries-2026",
+    title: "Как выбрать нишу на Wildberries в 2026: пошаговый гайд",
+    excerpt:
+      "Спрос, конкуренция, юнит-экономика — три шага до входа в нишу. Чек-лист из 12 критериев, таблица расчёта маржи и реальные кейсы селлеров с цифрами.",
+    date: "2026-07-08",
+  },
+  {
     slug: "shtrafy-wildberries-2026",
     title: "Штрафы на Wildberries в 2026: за что снимают деньги и как избежать",
     excerpt:
