@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "reklama-na-ozon-2026",
+    title: "Реклама на Ozon в 2026: пошаговый гайд для селлеров",
+    excerpt:
+      "Трафаретная, поисковая и медийная реклама на Ozon: как запустить, выставить ставки и считать ДРР. Чек-лист из 15 пунктов и реальные кейсы по бюджетам.",
+    date: "2026-07-09",
+  },
+  {
     slug: "kak-vybrat-nishu-wildberries-2026",
     title: "Как выбрать нишу на Wildberries в 2026: пошаговый гайд",
     excerpt:
