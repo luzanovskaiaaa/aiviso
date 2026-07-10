@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "markirovka-tovarov-wb-ozon",
+    title: "Маркировка товаров для WB и Ozon: штрихкоды и Честный знак в 2026",
+    excerpt:
+      "Штрихкоды EAN-13, этикетки, Честный знак — полное руководство по маркировке для Wildberries и Ozon. Чек-лист из 12 пунктов, суммы штрафов и типичные ошибки селлеров.",
+    date: "2026-07-10",
+  },
+  {
     slug: "reklama-na-ozon-2026",
     title: "Реклама на Ozon в 2026: пошаговый гайд для селлеров",
     excerpt:
