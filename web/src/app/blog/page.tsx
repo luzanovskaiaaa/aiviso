@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "kak-otkryt-magazin-wildberries-2026",
+    title: "Как открыть магазин на Wildberries в 2026: пошаговая инструкция",
+    excerpt:
+      "От регистрации до первой продажи: документы, гарантийный взнос 10 000 ₽, выбор FBO/FBS, маркировка и чек-лист из 18 шагов. Реальные цифры и типичные ошибки, которые стоили селлерам сотни тысяч рублей.",
+    date: "2026-07-11",
+  },
+  {
     slug: "markirovka-tovarov-wb-ozon",
     title: "Маркировка товаров для WB и Ozon: штрихкоды и Честный знак в 2026",
     excerpt:
