@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "algoritm-poiska-wildberries",
+    title: "Алгоритм поиска Wildberries в 2026: что реально влияет на позиции карточки",
+    excerpt:
+      "Как WB ранжирует карточки: конверсия, CTR, оборачиваемость, SEO и отзывы. Разбор всех факторов, чек-лист из 18 пунктов и типичные мифы, которые мешают расти в поиске.",
+    date: "2026-07-14",
+  },
+  {
     slug: "rich-kontent-ozon",
     title: "RICH-контент для Ozon: как создать и почему без него вы теряете продажи",
     excerpt:
