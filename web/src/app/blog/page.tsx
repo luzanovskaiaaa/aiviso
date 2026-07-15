@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "negativnye-otzyvy-wb-ozon",
+    title: "Как отвечать на негативные отзывы на Wildberries и Ozon: шаблоны и чек-лист",
+    excerpt:
+      "Шаблоны ответов на 4 типа негативных отзывов, чек-лист из 12 пунктов и кейс: рейтинг с 3.8 до 4.4 за 90 дней. Как не потерять конверсию из-за одного плохого отзыва.",
+    date: "2026-07-15",
+  },
+  {
     slug: "algoritm-poiska-wildberries",
     title: "Алгоритм поиска Wildberries в 2026: что реально влияет на позиции карточки",
     excerpt:
