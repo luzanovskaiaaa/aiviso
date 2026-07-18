@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "zagolovok-kartochki-wb-ozon",
+    title: "Как написать заголовок карточки на Wildberries и Ozon: формула и чек-лист",
+    excerpt:
+      "Формула заголовка для WB и Ozon, 7 типичных ошибок, таблица сравнения требований и чек-лист из 12 пунктов. Реальный кейс: позиция с 74 на 18 после смены заголовка.",
+    date: "2026-07-18",
+  },
+  {
     slug: "aktsii-wb-ozon",
     title: "Акции на Wildberries и Ozon: как участвовать и не уйти в минус",
     excerpt:
