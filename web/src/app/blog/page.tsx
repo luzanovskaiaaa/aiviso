@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "kak-nayti-postavshchika-2026",
+    title: "Как найти поставщика для маркетплейса: пошаговый гайд 2026",
+    excerpt:
+      "Alibaba, 1688, российские оптовики и выставки — где искать товар для WB и Ozon. Чек-лист проверки поставщика из 9 пунктов, переговоры по цене и MOQ, типичные ошибки первого заказа.",
+    date: "2026-07-19",
+  },
+  {
     slug: "zagolovok-kartochki-wb-ozon",
     title: "Как написать заголовок карточки на Wildberries и Ozon: формула и чек-лист",
     excerpt:
