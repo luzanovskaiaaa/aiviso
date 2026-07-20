@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "lifestyle-foto-dlya-marketpleis",
+    title: "Lifestyle-фото для маркетплейса: как создать без фотостудии",
+    excerpt:
+      "Три способа получить lifestyle-кадр для карточки WB и Ozon: DIY, фрилансер и AI-генерация. Чек-лист из 12 пунктов, сравнение стоимости и кейс: CTR с 3.1% до 4.6% после смены первого слайда.",
+    date: "2026-07-20",
+  },
+  {
     slug: "kak-nayti-postavshchika-2026",
     title: "Как найти поставщика для маркетплейса: пошаговый гайд 2026",
     excerpt:
