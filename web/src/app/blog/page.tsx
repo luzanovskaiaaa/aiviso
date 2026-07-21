@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "kak-otkryt-magazin-ozon-2026",
+    title: "Как открыть магазин на Ozon в 2026: пошаговая инструкция",
+    excerpt:
+      "От регистрации до первой продажи на Ozon: документы, выбор FBO/FBS/realFBS, первая карточка и чек-лист из 20 шагов. Реальные цифры и типичные ошибки новых селлеров. Без гарантийного взноса — старт от 22 650 ₽.",
+    date: "2026-07-21",
+  },
+  {
     slug: "lifestyle-foto-dlya-marketpleis",
     title: "Lifestyle-фото для маркетплейса: как создать без фотостудии",
     excerpt:
