@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "harakteristiki-tovara-wb-ozon",
+    title: "Характеристики товара на Wildberries и Ozon: как заполнять чтобы продавать",
+    excerpt:
+      "Почему пустые атрибуты убивают органику, чек-лист из 20 пунктов и кейс: правильные характеристики подняли карточку с 84 на 19 место в поиске без рекламы.",
+    date: "2026-07-22",
+  },
+  {
     slug: "kak-otkryt-magazin-ozon-2026",
     title: "Как открыть магазин на Ozon в 2026: пошаговая инструкция",
     excerpt:
