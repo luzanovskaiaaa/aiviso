@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "ab-test-kartochki-marketpleys",
+    title: "A/B тест карточки товара на Wildberries и Ozon: что тестировать и как читать результаты",
+    excerpt:
+      "Что менять, сколько ждать и какие метрики смотреть. Чек-лист из 18 пунктов и кейс: +34% конверсии за 14 дней после смены главного фото без рекламы.",
+    date: "2026-07-23",
+  },
+  {
     slug: "harakteristiki-tovara-wb-ozon",
     title: "Характеристики товара на Wildberries и Ozon: как заполнять чтобы продавать",
     excerpt:
