@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "glavnoe-foto-kartochki",
+    title: "Главное фото карточки товара: 8 правил первого слайда который продаёт",
+    excerpt:
+      "Первый слайд — единственное что видит покупатель в листинге. 8 правил главного фото, чек-лист из 12 пунктов и кейс: CTR с 1.8% до 4.1% за 14 дней без рекламы.",
+    date: "2026-07-24",
+  },
+  {
     slug: "ab-test-kartochki-marketpleys",
     title: "A/B тест карточки товара на Wildberries и Ozon: что тестировать и как читать результаты",
     excerpt:
