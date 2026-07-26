@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "masshtabirovanie-prodazh-marketpleys",
+    title: "Как масштабировать продажи на маркетплейсе до 1 000 000 ₽ в месяц",
+    excerpt:
+      "Пошаговый план: как вырасти с 50–100 тысяч до миллиона на WB и Ozon. FBO, реклама, обновление фото и чек-лист из 20 пунктов с реальными кейсами селлеров.",
+    date: "2026-07-26",
+  },
+  {
     slug: "fony-dlya-kartochki-tovara",
     title: "Фоны и сцены для карточки товара: что реально работает на WB и Ozon",
     excerpt:
