@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "vneshniy-trafik-wildberries-ozon-2026",
+    title: "Внешний трафик для WB и Ozon: как привлекать покупателей из Telegram, VK и YouTube",
+    excerpt:
+      "Wildberries и Ozon дают бонусы за внешний трафик. Разбираем каждый канал с цифрами: Telegram-посевы от 3 000 ₽, блогеры, VK-таргет и YouTube. Чек-лист из 18 пунктов и кейс: позиция с 34 на 7 без изменений карточки.",
+    date: "2026-07-30",
+  },
+  {
     slug: "masshtabirovanie-prodazh-marketpleys",
     title: "Как масштабировать продажи на маркетплейсе до 1 000 000 ₽ в месяц",
     excerpt:
