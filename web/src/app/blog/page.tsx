@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "analitika-prodazh-wb-ozon-2026",
+    title: "Аналитика продаж на Wildberries и Ozon: как читать цифры и расти в 2026",
+    excerpt:
+      "CTR, конверсия, оборачиваемость, процент выкупа — какие метрики реально важны, где их смотреть в ЛК и как принимать решения на основе данных. Чек-лист из 10 пунктов для еженедельного разбора.",
+    date: "2026-07-31",
+  },
+  {
     slug: "vneshniy-trafik-wildberries-ozon-2026",
     title: "Внешний трафик для WB и Ozon: как привлекать покупателей из Telegram, VK и YouTube",
     excerpt:
