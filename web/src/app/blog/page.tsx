@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "reyting-prodavtsa-wildberries",
+    title: "Рейтинг продавца на Wildberries: из чего складывается и как поднять",
+    excerpt:
+      "Из чего считается рейтинг продавца на WB, почему он падает и как его поднять без накруток. Чек-лист из 15 пунктов и кейс: с 3.8 до 4.6 за 90 дней после обновления фото и работы с отзывами.",
+    date: "2026-08-01",
+  },
+  {
     slug: "analitika-prodazh-wb-ozon-2026",
     title: "Аналитика продаж на Wildberries и Ozon: как читать цифры и расти в 2026",
     excerpt:
