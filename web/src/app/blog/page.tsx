@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "oformlenie-magazina-wb-ozon",
+    title: "Оформление магазина на Wildberries и Ozon: баннеры, брендинг и первое впечатление",
+    excerpt:
+      "Логотип, баннер, описание магазина и единый стиль карточек — как оформить страницу продавца на WB и Ozon чтобы получать повторные покупки. Чек-лист из 12 пунктов и таблица требований к размерам.",
+    date: "2026-08-02",
+  },
+  {
     slug: "reyting-prodavtsa-wildberries",
     title: "Рейтинг продавца на Wildberries: из чего складывается и как поднять",
     excerpt:
