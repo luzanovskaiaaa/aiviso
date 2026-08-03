@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "obnovit-foto-kartochki-bez-poteri-pozitsiy",
+    title: "Как обновить фото карточки товара и не потерять позиции на WB и Ozon",
+    excerpt:
+      "Что реально происходит с позициями при смене фото на Wildberries и Ozon, алгоритм безопасного обновления, чек-лист из 14 пунктов и кейс: 45 карточек обновили за выходные без просадки.",
+    date: "2026-08-03",
+  },
+  {
     slug: "oformlenie-magazina-wb-ozon",
     title: "Оформление магазина на Wildberries и Ozon: баннеры, брендинг и первое впечатление",
     excerpt:
