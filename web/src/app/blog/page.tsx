@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "ctr-kartochki-wb-ozon",
+    title: "CTR карточки на WB и Ozon: как измерить и поднять кликабельность",
+    excerpt:
+      "CTR — первая метрика воронки продаж на маркетплейсе. Как его смотреть в ЛК WB и Ozon, что влияет на кликабельность и чек-лист из 12 действий для роста CTR на 50–80% за две недели.",
+    date: "2026-08-04",
+  },
+  {
     slug: "obnovit-foto-kartochki-bez-poteri-pozitsiy",
     title: "Как обновить фото карточки товара и не потерять позиции на WB и Ozon",
     excerpt:
