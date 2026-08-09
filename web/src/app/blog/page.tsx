@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "top-wildberries-s-nulya-90-dney",
+    title: "Как выйти в ТОП на Wildberries с нуля: пошаговый план на 90 дней",
+    excerpt:
+      "Четыре фазы по 30 дней: от выбора ниши и первой поставки до стабильных продаж в ТОП-20. Конкретные метрики, чек-листы и кейс — 18-е место в категории за 84 дня без серых схем.",
+    date: "2026-08-09",
+  },
+  {
     slug: "dropshipping-wb-ozon-2026",
     title: "Дропшиппинг на Wildberries и Ozon в 2026: как продавать без своего склада",
     excerpt:
