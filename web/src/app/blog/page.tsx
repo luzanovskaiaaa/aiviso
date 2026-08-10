@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "upravlenie-ostatkami-wb-ozon",
+    title: "Управление остатками на WB и Ozon: как не уйти в out-of-stock и не замораживать деньги",
+    excerpt:
+      "Формула страхового запаса, таблица сроков пополнения по схемам логистики, сигналы тревоги и чек-лист из 15 пунктов. Кейс: позиция упала с 12 на 89 за 48 часов из-за нулевого остатка — и как это исправить.",
+    date: "2026-08-10",
+  },
+  {
     slug: "top-wildberries-s-nulya-90-dney",
     title: "Как выйти в ТОП на Wildberries с нуля: пошаговый план на 90 дней",
     excerpt:
