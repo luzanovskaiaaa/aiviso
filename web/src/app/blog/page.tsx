@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "komissiya-wb-ozon-tablica-2026",
+    title: "Комиссия Wildberries и Ozon в 2026: таблица по категориям и как считать цену",
+    excerpt:
+      "Актуальные ставки комиссий WB и Ozon по всем категориям, скрытые сборы за хранение и логистику, формула расчёта реальной прибыли. Чек-лист из 12 пунктов перед выставлением цены.",
+    date: "2026-08-11",
+  },
+  {
     slug: "upravlenie-ostatkami-wb-ozon",
     title: "Управление остатками на WB и Ozon: как не уйти в out-of-stock и не замораживать деньги",
     excerpt:
