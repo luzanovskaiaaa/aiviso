@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "pribylnye-nichy-wildberries-2026",
+    title: "ТОП-10 прибыльных ниш на Wildberries в 2026: где выгоднее всего продавать",
+    excerpt:
+      "Маржа, выручка ТОП-100 продавцов и реальный порог входа по 10 нишам WB. Ниши с ловушками — электроника и модная одежда. Чек-лист из 10 критериев перед заходом в категорию.",
+    date: "2026-08-12",
+  },
+  {
     slug: "komissiya-wb-ozon-tablica-2026",
     title: "Комиссия Wildberries и Ozon в 2026: таблица по категориям и как считать цену",
     excerpt:
