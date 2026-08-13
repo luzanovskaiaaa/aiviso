@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "oborachivaemost-tovara-marketpleys",
+    title: "Оборачиваемость товара на WB и Ozon: формула, нормы и как не платить за хранение",
+    excerpt:
+      "Как считать оборачиваемость, какой показатель считается нормой по категориям, тарифы платного хранения WB и Ozon в 2026. Чек-лист из 10 пунктов перед поставкой и кейс: с 68 до 21 дня после обновления фото.",
+    date: "2026-08-13",
+  },
+  {
     slug: "pribylnye-nichy-wildberries-2026",
     title: "ТОП-10 прибыльных ниш на Wildberries в 2026: где выгоднее всего продавать",
     excerpt:
