@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "kak-fotografirovat-ukrasheniya",
+    title: "Как фотографировать украшения и бижутерию для маркетплейса: гайд и чек-лист",
+    excerpt:
+      "Освещение без бликов, правильные фоны по типу металла, ракурсы и передача размера. Чек-лист из 18 пунктов и кейс: CTR с 1.9% до 4.7% после пересъёмки без рекламы.",
+    date: "2026-08-14",
+  },
+  {
     slug: "oborachivaemost-tovara-marketpleys",
     title: "Оборачиваемость товара на WB и Ozon: формула, нормы и как не платить за хранение",
     excerpt:
