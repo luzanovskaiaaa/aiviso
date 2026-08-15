@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "protsent-vykupa-wildberries-ozon",
+    title: "Как поднять процент выкупа на Wildberries и Ozon в 2026",
+    excerpt:
+      "Почему покупатели возвращают товар и как с этим работать. Формула расчёта убытков, норма выкупа по категориям, чек-лист из 20 пунктов и кейс: с 54% до 78% за 8 недель после обновления фото.",
+    date: "2026-08-15",
+  },
+  {
     slug: "kak-fotografirovat-ukrasheniya",
     title: "Как фотографировать украшения и бижутерию для маркетплейса: гайд и чек-лист",
     excerpt:
