@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "brend-na-marketpleyse-s-nulya",
+    title: "Как построить бренд на маркетплейсе с нуля: от логотипа до карточки товара",
+    excerpt:
+      "Логотип, фирменная упаковка, единый стиль карточек и страница магазина — пошаговый план построения бренда на WB и Ozon. Чек-лист из 18 пунктов и кейс: CTR с 2.1% до 3.4% после единого фона без рекламы.",
+    date: "2026-08-16",
+  },
+  {
     slug: "protsent-vykupa-wildberries-ozon",
     title: "Как поднять процент выкупа на Wildberries и Ozon в 2026",
     excerpt:
