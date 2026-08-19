@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "private-label-wb-ozon-2026",
+    title: "Private label на WB и Ozon: как запустить товар под своей маркой в 2026",
+    excerpt:
+      "Регистрация торгового знака, поиск производителя, дизайн упаковки и первые продажи. Чек-лист из 20 шагов и кейс: маржа выросла с 12% до 38% после перехода на собственный бренд.",
+    date: "2026-08-19",
+  },
+  {
     slug: "samozanyatyy-marketpleys-2026",
     title: "Самозанятые на Wildberries и Ozon в 2026: налоги, лимиты и ограничения",
     excerpt:
