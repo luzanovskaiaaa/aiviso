@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "sertifikatsiya-tovarov-2026",
+    title: "Сертификация товаров для Wildberries и Ozon в 2026: полное руководство",
+    excerpt:
+      "Сертификат, декларация или отказное письмо — что нужно для каждой категории. Честный знак, штрафы до 300 000 ₽ и чек-лист из 15 пунктов перед запуском нового товара.",
+    date: "2026-08-20",
+  },
+  {
     slug: "private-label-wb-ozon-2026",
     title: "Private label на WB и Ozon: как запустить товар под своей маркой в 2026",
     excerpt:
