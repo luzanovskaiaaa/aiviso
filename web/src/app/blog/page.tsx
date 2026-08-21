@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "kak-fotografirovat-kosmetiku",
+    title: "Как фотографировать косметику и уход для маркетплейсов: гайд 2026",
+    excerpt:
+      "Освещение без бликов, ракурсы, текстуры кремов и сывороток, фоны по категориям. Чек-лист из 18 пунктов и кейс: CTR с 2.1% до 5.3% после пересъёмки без нового оборудования.",
+    date: "2026-08-21",
+  },
+  {
     slug: "sertifikatsiya-tovarov-2026",
     title: "Сертификация товаров для Wildberries и Ozon в 2026: полное руководство",
     excerpt:
