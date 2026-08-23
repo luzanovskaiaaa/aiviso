@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "zapusk-novogo-tovara-marketpleys",
+    title: "Как запустить новый товар на маркетплейсе: чек-лист из 20 шагов",
+    excerpt:
+      "Полный план запуска нового товара на Wildberries и Ozon — от анализа ниши и юнит-экономики до первых стабильных продаж. Чек-лист из 20 шагов, типичные ошибки и реальные кейсы с цифрами.",
+    date: "2026-08-23",
+  },
+  {
     slug: "kak-fotografirovat-elektroniku",
     title: "Как фотографировать электронику и гаджеты для маркетплейсов: гайд 2026",
     excerpt:
