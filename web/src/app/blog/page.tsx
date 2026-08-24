@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "vyplaty-wildberries-ozon-2026",
+    title: "Выплаты на Wildberries и Ozon в 2026: сроки, удержания и частые вопросы",
+    excerpt:
+      "Когда WB и Ozon переводят деньги, что удерживают из выплат, как читать финансовый отчёт и чек-лист из 12 пунктов чтобы не терять деньги на пустом месте.",
+    date: "2026-08-24",
+  },
+  {
     slug: "zapusk-novogo-tovara-marketpleys",
     title: "Как запустить новый товар на маркетплейсе: чек-лист из 20 шагов",
     excerpt:
