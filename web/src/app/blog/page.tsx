@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "pozitsii-kartochki-wildberries-ozon",
+    title: "Как отслеживать позиции карточки товара на Wildberries и Ozon",
+    excerpt:
+      "Где смотреть позиции в ЛК WB и Ozon, какие сторонние инструменты реально работают, как читать динамику и чек-лист из 15 пунктов для еженедельного мониторинга.",
+    date: "2026-08-27",
+  },
+  {
     slug: "kak-fotografirovat-detskie-tovary",
     title: "Как фотографировать детские товары для маркетплейсов: гайд 2026",
     excerpt:
