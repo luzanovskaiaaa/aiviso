@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "blokirovka-akkaunta-wildberries",
+    title: "Блокировка аккаунта на Wildberries: за что блокируют и как не получить бан",
+    excerpt:
+      "За что WB блокирует продавцов, три реальных кейса с цифрами убытков и чек-лист из 18 пунктов для защиты аккаунта. Алгоритм апелляции и документы для разблокировки.",
+    date: "2026-08-28",
+  },
+  {
     slug: "pozitsii-kartochki-wildberries-ozon",
     title: "Как отслеживать позиции карточки товара на Wildberries и Ozon",
     excerpt:
