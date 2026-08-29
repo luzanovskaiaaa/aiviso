@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "neyroseti-dlya-seo-marketpleys",
+    title: "Нейросети для SEO маркетплейса: заголовки, описания и ключи за 5 минут",
+    excerpt:
+      "Как использовать ИИ для написания заголовков, описаний и ключевых слов на WB и Ozon. Чек-лист из 14 шагов, примеры промтов и кейс: рост с 47-й позиции на 24-ю без рекламы и без изменения фото.",
+    date: "2026-08-29",
+  },
+  {
     slug: "blokirovka-akkaunta-wildberries",
     title: "Блокировка аккаунта на Wildberries: за что блокируют и как не получить бан",
     excerpt:
