@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "avtomatizatsiya-prodavtsa-marketpleys",
+    title: "Автоматизация работы на маркетплейсе: что и чем автоматизировать в 2026",
+    excerpt:
+      "Какие сервисы реально экономят время продавца на WB и Ozon: аналитика, репрайсер, управление остатками, AI-фото и отзывы. Чек-лист из 8 пунктов с чего начать.",
+    date: "2026-08-30",
+  },
+  {
     slug: "neyroseti-dlya-seo-marketpleys",
     title: "Нейросети для SEO маркетплейса: заголовки, описания и ключи за 5 минут",
     excerpt:
