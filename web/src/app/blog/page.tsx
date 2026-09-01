@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "kak-fotografirovat-mebel",
+    title: "Как фотографировать мебель для маркетплейсов: гайд 2026",
+    excerpt:
+      "Освещение без бликов, ракурсы, постановка интерьерных сцен и передача масштаба. Чек-лист из 20 пунктов и кейс: CTR с 1.6% до 4.2% после пересъёмки дивана без студии.",
+    date: "2026-09-01",
+  },
+  {
     slug: "audit-kartochki-tovara",
     title: "Аудит карточки товара на Wildberries и Ozon: пошаговый разбор за 30 минут",
     excerpt:
