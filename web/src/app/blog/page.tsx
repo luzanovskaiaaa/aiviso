@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "algoritm-ozon-2026",
+    title: "Алгоритм поиска Ozon в 2026: что реально влияет на позиции карточки",
+    excerpt:
+      "Конверсия, CTR, SEO, отзывы и фото — разбираем все факторы ранжирования Ozon с реальными цифрами. Чек-лист из 20 пунктов и кейс: с 61-й позиции на 9-ю за 6 недель без рекламы.",
+    date: "2026-09-03",
+  },
+  {
     slug: "startovye-vlozheniya-marketpleys-2026",
     title: "Сколько нужно денег для старта на Wildberries и Ozon: полный расчёт 2026",
     excerpt:
