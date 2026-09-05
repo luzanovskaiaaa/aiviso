@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "yandeks-market-dlya-sellerov-2026",
+    title: "Яндекс.Маркет для селлеров в 2026: полный гайд по запуску и продажам",
+    excerpt:
+      "Схемы FBY, FBS и DBS, комиссии от 5% в электронике, требования к фото и SEO. Чек-лист из 12 шагов и кейс: ТОП-10 категории за 6 недель с конкуренцией в 3 раза ниже, чем на WB.",
+    date: "2026-09-05",
+  },
+  {
     slug: "podgotovka-k-chernoy-pyatnice-marketpleys",
     title: "Чёрная пятница на Wildberries и Ozon 2026: как подготовиться и не уйти в минус",
     excerpt:
