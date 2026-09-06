@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "kak-fotografirovat-produkty-pitaniya",
+    title: "Как фотографировать продукты питания для маркетплейсов: гайд 2026",
+    excerpt:
+      "Освещение, ракурсы, подача и обработка для еды и продовольственных товаров на WB и Ozon. Чек-лист из 20 пунктов и кейс: CTR с 2.3% до 5.1% после пересъёмки.",
+    date: "2026-09-06",
+  },
+  {
     slug: "yandeks-market-dlya-sellerov-2026",
     title: "Яндекс.Маркет для селлеров в 2026: полный гайд по запуску и продажам",
     excerpt:
