@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "rich-kontent-wildberries",
+    title: "Rich-контент для Wildberries в 2026: как создать и почему без него вы теряете продажи",
+    excerpt:
+      "Пошаговый гайд по созданию Rich-контента на WB: видео, блоки преимуществ, инфографика, FAQ. Чек-лист из 12 пунктов и кейс — конверсия с 3,2% до 5,8% за 3 недели без рекламы.",
+    date: "2026-09-09",
+  },
+  {
     slug: "abc-analiz-kataloga-marketpleys",
     title: "ABC-анализ каталога на маркетплейсе: что оставить, что улучшить, что убрать",
     excerpt:
