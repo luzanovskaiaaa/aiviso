@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "instrumenty-analitiki-marketpleysov-2026",
+    title: "Инструменты аналитики маркетплейсов 2026: MPStats, Sellmonitor и другие",
+    excerpt:
+      "Обзор платных и бесплатных сервисов аналитики для продавцов WB и Ozon. Что смотреть в личном кабинете бесплатно, чем дополнить платными инструментами и чек-лист еженедельного мониторинга из 7 метрик.",
+    date: "2026-09-10",
+  },
+  {
     slug: "rich-kontent-wildberries",
     title: "Rich-контент для Wildberries в 2026: как создать и почему без него вы теряете продажи",
     excerpt:
