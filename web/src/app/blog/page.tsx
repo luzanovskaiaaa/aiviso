@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "otvety-na-voprosy-pokupateley",
+    title: "Как отвечать на вопросы покупателей на WB и Ozon: шаблоны и чек-лист",
+    excerpt:
+      "Раздел Q&A влияет на конверсию сильнее, чем думают продавцы. Шаблоны ответов на 5 типов вопросов, 5 ошибок которые убивают продажи и чек-лист из 14 пунктов для настройки работы с вопросами.",
+    date: "2026-09-12",
+  },
+  {
     slug: "instrumenty-analitiki-marketpleysov-2026",
     title: "Инструменты аналитики маркетплейсов 2026: MPStats, Sellmonitor и другие",
     excerpt:
