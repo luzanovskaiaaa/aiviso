@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "obrabotka-foto-tovara-marketpleys",
+    title: "Как обработать фото товара для маркетплейса: убрать фон, ретушь и размеры",
+    excerpt:
+      "Удаление фона до #FFFFFF, цветокоррекция, размеры 900×1200 для WB и Ozon. Чек-лист из 18 пунктов и кейс: CTR с 1.8% до 4.3% после правильной обработки без пересъёмки.",
+    date: "2026-09-14",
+  },
+  {
     slug: "likvidatsiya-stokov-marketpleys",
     title: "Ликвидация стоков на маркетплейсе: как распродать залежавшийся товар и вернуть деньги",
     excerpt:
