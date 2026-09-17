@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "kak-fotografirovat-sportivnye-tovary",
+    title: "Как фотографировать спортивные товары для маркетплейса: гайд 2026",
+    excerpt:
+      "Освещение, ракурсы, динамические сцены и обработка для спортинвентаря и одежды на WB и Ozon. Чек-лист из 20 пунктов и кейс: CTR с 1.9% до 4.8% после пересъёмки набора эспандеров.",
+    date: "2026-09-17",
+  },
+  {
     slug: "obrabotka-foto-tovara-marketpleys",
     title: "Как обработать фото товара для маркетплейса: убрать фон, ретушь и размеры",
     excerpt:
