@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "multikanalnye-prodazhi-marketpleys",
+    title: "Как продавать на нескольких маркетплейсах одновременно: полный гайд 2026",
+    excerpt:
+      "Синхронизация остатков, единая контент-стратегия для WB, Ozon и Яндекс.Маркет, чек-лист из 18 шагов и кейс: +67% выручки без новых товаров и без хаоса в операционке.",
+    date: "2026-09-19",
+  },
+  {
     slug: "oshibki-reklamy-wb-ozon",
     title: "8 ошибок с рекламой на Wildberries и Ozon, которые сливают бюджет",
     excerpt:
