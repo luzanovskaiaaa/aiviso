@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "fulfilment-marketpleys-2026",
+    title: "Фулфилмент для Wildberries и Ozon в 2026: как выбрать оператора и сколько стоит",
+    excerpt:
+      "Когда переходить на фулфилмент-оператора, сколько стоит и как выбрать подрядчика. FBO, FBS и сторонний фулфилмент: сравнение с реальными цифрами, чек-лист из 12 шагов и кейс: экономия 22 000 ₽/мес после перехода.",
+    date: "2026-09-25",
+  },
+  {
     slug: "hendmejd-na-marketpleyse-2026",
     title: "Хэндмейд на Wildberries и Ozon: как продавать авторские товары в 2026",
     excerpt:
