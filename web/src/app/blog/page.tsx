@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "klyuchevye-slova-kartochki-wildberries",
+    title: "Ключевые слова для карточки на Wildberries: пошаговый гайд 2026",
+    excerpt:
+      "Как подобрать ключевые слова для карточки WB: бесплатные методы, платные инструменты, куда вставлять и какие ошибки убивают органику. Чек-лист из 16 шагов и кейс: заказы выросли с 25 до 60 в день без изменений товара.",
+    date: "2026-09-26",
+  },
+  {
     slug: "fulfilment-marketpleys-2026",
     title: "Фулфилмент для Wildberries и Ozon в 2026: как выбрать оператора и сколько стоит",
     excerpt:
