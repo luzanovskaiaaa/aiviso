@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "nalogi-sellerov-wildberries-ozon-2026",
+    title: "Налоги для продавцов на Wildberries и Ozon в 2026: УСН, НДС и что выбрать",
+    excerpt:
+      "УСН 6% или 15%, НДС при обороте от 60 млн, страховые взносы ИП, налоговый календарь и 5 ошибок которые стоят десятки тысяч рублей. Чек-лист из 15 пунктов и конкретные цифры.",
+    date: "2026-10-04",
+  },
+  {
     slug: "kartochka-tovara-novyy-god-2026",
     title: "Карточка товара к Новому году: как подготовить фото и описание на WB и Ozon",
     excerpt:
