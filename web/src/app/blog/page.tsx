@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "neyroseti-dlya-prodavtsa-marketpleys",
+    title: "Нейросети для продавца маркетплейса: 12 задач которые ИИ решает за вас",
+    excerpt:
+      "ИИ-инструменты для работы на WB и Ozon: генерация фото, SEO-тексты, аналитика, ответы на отзывы. Чек-лист из 12 задач и экономия от 40 000 ₽ в месяц.",
+    date: "2026-10-11",
+  },
+  {
     slug: "kontent-plan-kartochki-tovara",
     title: "Контент-план карточки товара: сколько слайдов и что показывать на каждом",
     excerpt:
