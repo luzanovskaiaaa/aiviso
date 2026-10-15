@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "infografika-bez-dizaynera",
+    title: "Инфографика без дизайнера: Canva и нейросети за 30 минут",
+    excerpt:
+      "Пошаговый гайд по созданию инфографики для карточки WB и Ozon без опыта в дизайне. Canva, Figma и AI. Чек-лист из 14 пунктов и кейс: CTR с 2.3% до 4.4% после добавления инфографики без пересъёмки.",
+    date: "2026-10-15",
+  },
+  {
     slug: "telegram-kanal-dlya-marketpleys-2026",
     title: "Telegram-канал для продаж на маркетплейсе: с нуля до трафика в 2026",
     excerpt:
