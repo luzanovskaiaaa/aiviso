@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "strategiya-raboty-s-otzyvami",
+    title: "Работа с отзывами на Wildberries и Ozon: полная стратегия 2026",
+    excerpt:
+      "Как собирать первые отзывы, отвечать на негатив и использовать рейтинг для роста позиций. Чек-лист из 22 пунктов и кейс: рейтинг с 3.6 до 4.7 за 10 недель без накруток.",
+    date: "2026-10-20",
+  },
+  {
     slug: "variativnost-kartochki-wb-ozon",
     title: "Вариативность карточки на WB и Ozon: цвета, размеры и артикулы в одной карточке",
     excerpt:
