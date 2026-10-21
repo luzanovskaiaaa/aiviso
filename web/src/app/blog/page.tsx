@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "vkladyshi-upakovka-marketpleys",
+    title: "Вкладыши в упаковку для маркетплейса: как получить больше отзывов и поднять рейтинг",
+    excerpt:
+      "Как сделать вкладыш в упаковку для WB и Ozon чтобы получить отзывы легально. Тексты, дизайн, запрещённые фразы и кейс: рейтинг с 4.1 до 4.8 за 10 недель без накруток.",
+    date: "2026-10-21",
+  },
+  {
     slug: "strategiya-raboty-s-otzyvami",
     title: "Работа с отзывами на Wildberries и Ozon: полная стратегия 2026",
     excerpt:
