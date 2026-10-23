@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "reanimatsiya-kartochki-tovara",
+    title: "Продажи встали: пошаговый план реанимации карточки на WB и Ozon",
+    excerpt:
+      "Диагностика за 15 минут, аудит фото, SEO и цены. Чек-лист из 20 пунктов и кейс: с 3 заказов до 47 в неделю за 12 дней без рекламы.",
+    date: "2026-10-23",
+  },
+  {
     slug: "krupnogabaritnyy-tovar-marketpleys-2026",
     title: "Крупногабаритный товар на WB и Ozon: как продавать мебель, технику и спорттовары в 2026",
     excerpt:
