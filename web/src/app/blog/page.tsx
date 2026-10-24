@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "kak-fotografirovat-sumki-aksessuary",
+    title: "Как фотографировать сумки и аксессуары для маркетплейса: гайд 2026",
+    excerpt:
+      "Освещение без бликов на коже и лаке, набивка формы, обязательные ракурсы для рюкзаков и сумок. Чек-лист из 18 пунктов и кейс: CTR с 1.8% до 4.5% после пересъёмки без студии.",
+    date: "2026-10-24",
+  },
+  {
     slug: "reanimatsiya-kartochki-tovara",
     title: "Продажи встали: пошаговый план реанимации карточки на WB и Ozon",
     excerpt:
