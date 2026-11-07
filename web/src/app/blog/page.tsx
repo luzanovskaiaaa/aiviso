@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "oshibki-novyh-sellerov-marketpleys",
+    title: "10 ошибок новых селлеров на Wildberries и Ozon, которые стоят денег",
+    excerpt:
+      "7 из 10 новичков уходят с маркетплейса в первые полгода из-за одних и тех же ошибок. Юнит-экономика, слабое фото, неправильная схема логистики — разбираем 10 промахов с цифрами потерь и чек-листом из 10 вопросов перед запуском.",
+    date: "2026-11-07",
+  },
+  {
     slug: "rasproday-11-11-marketpleys-2026",
     title: "11.11 на Wildberries и Ozon 2026: как подготовиться за 5 дней",
     excerpt:
