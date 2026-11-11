@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "live-shopping-marketpleys-2026",
+    title: "Live Shopping на Wildberries и Ozon: как продавать через прямые эфиры в 2026",
+    excerpt:
+      "WB Live и Ozon Live дают конверсию 8–12% прямо во время трансляции против 3–4% в обычной карточке. Чек-лист подготовки, структура 60-минутного эфира, технические требования и кейс: 112 заказов на 68 000 ₽ за первую трансляцию без опыта.",
+    date: "2026-11-11",
+  },
+  {
     slug: "eksport-wb-ozon-2026",
     title: "Как продавать через WB и Ozon в Казахстан, Беларусь и СНГ: полный гайд 2026",
     excerpt:
