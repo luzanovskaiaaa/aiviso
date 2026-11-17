@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "drr-reklamy-wb-ozon",
+    title: "ДРР рекламы на WB и Ozon: как снизить до 10% без потери трафика",
+    excerpt:
+      "Формула расчёта ДРР, 6 причин почему он растёт и пошаговый план снижения до 10% на Wildberries и Ozon. Кейс: с 32% до 9% за 6 недель — экономия 62 000 ₽/мес без сокращения бюджета.",
+    date: "2026-11-17",
+  },
+  {
     slug: "indeks-tseny-wildberries",
     title: "Индекс цены Wildberries: что это, как считается и почему из-за него падают продажи",
     excerpt:
