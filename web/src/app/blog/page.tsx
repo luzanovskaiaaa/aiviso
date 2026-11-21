@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "lukbuk-dlya-marketpleysa",
+    title: "Лукбук для маркетплейса: как создать за день без фотостудии в 2026",
+    excerpt:
+      "Что такое лукбук для карточки на WB и Ozon, зачем он нужен и как сделать lifestyle-фото с AI без бюджета на студию. Чек-лист из 16 пунктов и кейс: CTR +71% после замены первого слайда.",
+    date: "2026-11-21",
+  },
+  {
     slug: "apsell-kross-prodazhi-marketpleys",
     title: "Апсейл и кросс-продажи на маркетплейсах: как поднять средний чек через карточку товара",
     excerpt:
