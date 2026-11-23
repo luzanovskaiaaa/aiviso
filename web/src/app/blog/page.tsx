@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const POSTS = [
   {
+    slug: "trendy-foto-marketpleys-2026",
+    title: "Тренды фотоконтента для маркетплейсов в 2026: что цепляет покупателей",
+    excerpt:
+      "Mobile-first кадрирование, lifestyle с первого слайда, AI-фоны и видео — разбираем визуальные тренды WB и Ozon с кейсами и цифрами. Чек-лист из 14 пунктов для проверки карточки.",
+    date: "2026-11-23",
+  },
+  {
     slug: "tz-na-foto-tovara",
     title: "Как написать ТЗ на фото товара для маркетплейса: шаблон и чек-лист",
     excerpt:
